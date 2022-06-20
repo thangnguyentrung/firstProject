@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #FFA600;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+.container h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.container p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: #FFA600;
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #FFA600;
+}
